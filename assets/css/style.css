@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.justify-content-space-e {
+    justify-content: space-evenly;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-c {
+    align-items: center;
+}
+
+.justify-content-c {
+    justify-content: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+img {
+    background: #EBEAED;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+
+}
+.text-align-c{text-align: center;}
+.mt-20{margin-top: 20px;}
+.mt-52{margin-top: 52px;}
+
+
+.pt-30 {
+   
+    padding-top: 30px;
+}
+.sec-heading{font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+    
+    text-align: center;
+    letter-spacing: -0.4px;
+    
+    /* Colors / Heading */
+    
+    color: #1E0E62;}
+    .sec-1-para{font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        max-height: 56px;
+        /* or 156% */
+        
+        /* Colors / Text */
+        
+        color: rgba(21, 20, 57, 0.4);
+        
+    max-width: 764px;
+        opacity: 0.7;
+    }
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+}
+@media (max-width:992px) {
+    .col-4-lg {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}}
+
+@media (max-width:768px) {
+    .col-6-md {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}}
+@media (max-width:576px) {
+    .col-12-sm {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}}
+
+
